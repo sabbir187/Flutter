@@ -1,3 +1,5 @@
+import 'package:test/expect.dart';
+
 void main(){
   print('hello dart');
   var intNumber=10;
@@ -27,7 +29,21 @@ print(random[9]);
 
   //maps
   var randoms={'name':'sabbir','id':123,'adress':'khulna','age':43,'height':'5 feet 5 inch'};
-  
+
 print(randoms);
-print(randoms['id']);
+print("value=${randoms['id']}");
+print(randoms['age']);
+
+
+//Arithmatic operation
+var a=45;
+var b=4;
+print("a+b=${a+b}");
+print(a+b);
+print(b-a);
+  print(b/a);
+  print(b%a);
+  print(b*a);
+
+
 }
