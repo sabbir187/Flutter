@@ -170,5 +170,41 @@ print(myset.first);
  var k=myset.elementAt(8);//to see the element of index 8.
   print(k);
 
+  //conditional statement
+  var marks=50;
+  if(marks>=80){
+    print("result is A+");
+  }
+   else if(marks<80 && marks>=70) {
+    print('result is not A');
+  }
+   else if(marks<70 && marks>=60){
+     print('result is A-');
+  }
+   else if(marks<60&&marks>=50){
+     print('result is B');
+
+  }
+   else if(marks<50&&marks>=40){
+     print('result is C');
+  }
+   else if(marks<40&&marks>=33){
+     print('result is D');
+
+  }
+   else{
+     print('he/she fail');
+  }
+for(var i=0;i<=10;i++)
+  {
+    print("sabbir"+i.toString());
+
+  }
+var alfa=['a','B','C','D','E','F'];
+for(var i in alfa){
+  print(i);
+  
+}
+
 
 }
