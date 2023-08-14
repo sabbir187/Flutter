@@ -203,7 +203,7 @@ for(var i=0;i<=10;i++)
 var alfa=['a','B','C','D','E','F'];
 for(var i in alfa){
   print(i);
-  
+
 }
 
 
