@@ -1,4 +1,5 @@
-import 'package:test/expect.dart';
+
+
 
 void main(){
   print('hello dart');
@@ -45,5 +46,62 @@ print(b-a);
   print(b%a);
   print(b*a);
 
+
+  //Unary oparation
+  var d=20;
+  print(d++);//initial value
+  print(d++);
+  print(d++);
+  print(d++);
+  print(d++);
+  print(d++);
+
+
+  print('star increment');
+  var e=40;
+  print(++e);//start increment
+  print(++e);
+  print(++e);
+  print(++e);
+  print(++e);
+  print(++e);
+
+  print('start decrement');
+  var i=20;
+
+  print(--i);//start decrement
+  print(--i);
+  print(--i);
+
+  var h=30;
+  print(h--);//initial value
+  print(h--);
+  print(h--);
+
+
+  //constant
+   final myNam='sabbir';
+  const mynam="golam";
+  print(mynam);
+   print(myNam);
+
+   //List
+var name=['sabbir','sakib','shakil','nahid',"khaled"];
+print('list item');
+var result=name.isEmpty;
+print(result);
+
+// fixed and growable list
+var city=['kashimpur','bordah','dhaka','natore','kusita'];
+print(city);
+city.add('kumilla');
+city.add('kolom');
+print(city);
+city.removeAt(0);
+print(city);
+city.removeLast();
+print(city);
+city.removeRange(1,3 );//removing start index 1 and before index 3
+print(city);
 
 }
