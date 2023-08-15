@@ -1,4 +1,6 @@
+import 'father.dart';
 import 'myclass.dart';
+import 'son.dart';
 
 void main() {
   print('hello dart');
@@ -256,11 +258,23 @@ dowhile();//function call
  var results= mul(5,3.00 )+2;
  print(results);
 
- var obj=new myclass();
+ var obj= new myclass("sabbir");
  print(obj.news);//for variable we have to write print() othewise obj.functionName
   print(obj.al[2]);
  obj.addtwo(3, 5);
  myclass.addthree(2, 4, 3);
+ var obj3= new myclass("sabbir ahmed");//new is optional
+  var obj2= new myclass('s');
+  obj2.myfunction();
+
+  var sonobj=son();//obj for inheritance
+ sonobj.btaka();
+
+
+ var fadaobj=father();
+  fadaobj.btaka();
+
+
 
 
 }//endiing carlibraj of main function
