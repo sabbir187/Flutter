@@ -200,11 +200,78 @@ for(var i=0;i<=10;i++)
     print("sabbir"+i.toString());
 
   }
-var alfa=['a','B','C','D','E','F'];
-for(var i in alfa){
-  print(i);
+var list1=['A','B','C','D','F',"E"];
+for(var list in list1){
+  print(list);
 
 }
 
-
+//for in loop in set
+var set1={"a",'b','c','d','e'};
+for (var set in set1 ){
+  print(set);
 }
+//for in loop in JsoN
+var json=[
+  {'name':'sabbir','id':123,'adress':'dhaka'},
+  {'name':'sakib','id':1345,'adress':'khulna'},
+  {'name':'shobuj','id':124,'adress':'cumilla'},
+  {'name':'abir','id':234,'adress':'kustia'},
+  {'name':'bonna','id':128,'adress':'kustia'},
+];
+for(var onemap in json) {
+ print("the name is=${onemap['name']},  and  the id =${onemap['id']} ,"
+     "and the adress =${onemap['adress']}");
+  //print(onemap);
+ // print("The name is =${onemap['name']}");
+ // print("the id=${onemap['id']}");
+  //print("the adress=${onemap['adress']}");
+}
+//while loop
+var j=0;
+while(j<9){
+  print('sabbir');
+ // print("sabbir"+j.toString());
+  j++;
+}
+
+//do while loop
+  var l = 0;
+  do {
+    print("sakib" + l.toString());
+//print('sakib');
+    l++;
+  } while (l < 6);
+
+dowhile();//function call
+
+  var namee='sabbir';
+  var another='ahmed';
+
+  print(namee+another);
+
+  add(3, 5);
+  add(4,6);//passing argument
+ var results= mul(5,3.00 )+2;
+ print(results);
+
+
+}//endiing carlibraj of main function
+
+double mul(int u,double v){
+  return u*v;
+}
+
+add(var s,var t){//passing argument
+  print(s+t);
+}
+
+dowhile() {//create function
+  var l = 0;
+  do {
+    print("lotif" + l.toString());
+//print('sakib');
+    l++;
+  } while (l < 6);
+}
+
