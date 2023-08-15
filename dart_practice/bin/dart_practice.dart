@@ -1,3 +1,4 @@
+import 'myclass.dart';
 
 void main() {
   print('hello dart');
@@ -255,23 +256,35 @@ dowhile();//function call
  var results= mul(5,3.00 )+2;
  print(results);
 
+ var obj=new myclass();
+ print(obj.news);//for variable we have to write print() othewise obj.functionName
+  print(obj.al[2]);
+ obj.addtwo(3, 5);
+ myclass.addthree(2, 4, 3);
+
 
 }//endiing carlibraj of main function
 
-double mul(int u,double v){
-  return u*v;
-}
 
-add(var s,var t){//passing argument
-  print(s+t);
-}
 
-dowhile() {//create function
-  var l = 0;
-  do {
-    print("lotif" + l.toString());
+  double mul(int u, double v) {
+    return u * v;
+  }
+
+
+  add(var s, var t) {
+    //passing argument
+    print(s + t);
+  }
+
+  dowhile() {
+    //create function
+    var l = 0;
+    do {
+      print("lotif" + l.toString());
 //print('sakib');
-    l++;
-  } while (l < 6);
-}
+      l++;
+    } while (l < 6);
+  }
+
 
